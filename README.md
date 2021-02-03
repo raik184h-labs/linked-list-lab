@@ -81,18 +81,14 @@ The following diagram shows these variables and the objects they refer to:
 
 ![linked list](https://curriculum-content.s3.amazonaws.com/javacs/cs-implementing-a-linkedlist-lab/linked_list_diagram1.png)
 
-## Getting set up
+## Project folder structure
 
+In the source folder, you'll find the source files you need for this lab:
 
-When you check out the repository for this lab, you should find a file structure similar to what you saw in previous labs.  The top level directory contains `CONTRIBUTING.md`, `LICENSE.md`, `README.md`, and the directory that contains the code for this lab, `javacs-lab03`.
+*  `MyLinkedList.java` contains a partial implementation of the `List` interface using a linked list to store the elements.
+*  `MyLinkedListTest.java` contains JUnit tests for `MyLinkedList`.
 
-In the subdirectory `javacs-lab03/src/com/flatironschool/javacs` you'll find the source files you need for this lab:
-
-    *  `MyLinkedList.java` contains a partial implementation of the `List` interface using a linked list to store the elements.
-
-    *  `MyLinkedListTest.java` contains JUnit tests for `MyLinkedList`.
-
-In `javacs-lab03`, you'll find the Ant build file `build.xml`.  If you are in this directory, you should be able to run `ant MyArrayList` to run `MyArrayList.java`, which contains a few simple tests.  Or you can run `ant test` to run the JUnit test.
+Run `MyArrayList.java`, which contains a few simple tests.  Or, run `MyLinkedListTest.java` for more tests.
 
 When you run the tests, several of them should fail.  If you examine the source code, you'll find three `TODO` comments indicating which methods you will fill in.
 
