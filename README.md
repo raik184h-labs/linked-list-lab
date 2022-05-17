@@ -181,7 +181,7 @@ Now it's your turn:
 *  Last one: fill in both `remove` methods.  One takes the element that should be removed and returns a `boolean`; the other takes the index of the element that should be removed and returns the element.  When you get these working, all tests should pass.
 
 
-*  Once you have your implementation working (meaning all unit tests are passing), upload a screenshot of your passing tests to Canvas.
+*  Once you have your implementation working (meaning all unit tests are passing), push it to GitHub!
 
 
 
@@ -206,7 +206,7 @@ So how should we classify `clear`?  The method itself contains two constant time
 
 This is a subtle example of what is sometimes called a "performance bug": a program that is correct in the sense that it does the right thing, but it doesn't belong to the order of growth we expected.  In languages like Java that do a lot of work, like garbage collection, behind the scenes, this kind of error can be hard to find.
 
-##Resources
+## Resources
 
 [Linked list Wikipedia page](https://en.wikipedia.org/wiki/Linked_list)
 [Generic types](https://docs.oracle.com/javase/tutorial/java/generics/types.html)
